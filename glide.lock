@@ -1,0 +1,51 @@
+hash: 1eade4caef6c2b365f8ad2ae4e85340395d7b48a82f86e6cdd96aa21e2bb6e68
+updated: 2018-01-16T11:02:53.755427601+01:00
+imports:
+- name: github.com/DanielRenne/mangosNode
+  version: 999eb62b5e9f4d476e5dd494fa2d525c12db911f
+  subpackages:
+  - bus
+  - pair
+  - pull
+  - push
+  - rep
+  - req
+- name: github.com/go-mangos/mangos
+  version: e5e6478f44cda1eb8427b590755270e2704a990d
+  subpackages:
+  - protocol/bus
+  - protocol/pair
+  - protocol/pub
+  - protocol/pull
+  - protocol/push
+  - protocol/rep
+  - protocol/req
+  - protocol/respondent
+  - protocol/sub
+  - protocol/surveyor
+  - transport/ipc
+  - transport/tcp
+- name: github.com/go-stack/stack
+  version: 259ab82a6cad3992b4e21ff5cac294ccb06474bc
+- name: github.com/mattn/go-colorable
+  version: 5411d3eea5978e6cdc258b30de592b60df6aba96
+- name: github.com/mattn/go-isatty
+  version: 57fdcb988a5c543893cc61bce354a6e24ab70022
+- name: github.com/mrlsd/reqrep-events
+  version: 31b43e7e65f7f651c57f6a43a3a499d395e1b0dc
+  subpackages:
+  - lib
+- name: github.com/project-iris/iris
+  version: c6c3abcb059c50cbc0670b13765e5ad6be05f1cd
+  subpackages:
+  - container/queue
+  - pool
+- name: golang.org/x/sys
+  version: 1d2aa6dbdea45adaaebb9905d0666e4537563829
+  subpackages:
+  - unix
+- name: gopkg.in/inconshreveable/log15.v2
+  version: 0decfc6c20d9ca0ad143b0e89dcaa20f810b4fb3
+- name: gopkg.in/project-iris/iris-go.v1
+  version: eef23de185e04ba00264dfa9b2f5100df2d31845
+testImports: []

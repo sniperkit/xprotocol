@@ -1,0 +1,28 @@
+package: github.com/sniperkit/xprotocol
+import:
+- package: github.com/DanielRenne/mangosNode
+  subpackages:
+  - bus
+  - pair
+  - pull
+  - push
+  - rep
+  - req
+- package: github.com/go-mangos/mangos
+  subpackages:
+  - protocol/bus
+  - protocol/pair
+  - protocol/pub
+  - protocol/pull
+  - protocol/push
+  - protocol/rep
+  - protocol/req
+  - protocol/respondent
+  - protocol/sub
+  - protocol/surveyor
+  - transport/ipc
+  - transport/tcp
+- package: github.com/mrlsd/reqrep-events
+  subpackages:
+  - lib
+- package: gopkg.in/project-iris/iris-go.v1
