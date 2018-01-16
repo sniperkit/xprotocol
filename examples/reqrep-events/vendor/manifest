@@ -1,0 +1,29 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/droundy/goopt",
+			"repository": "https://github.com/droundy/goopt",
+			"vcs": "git",
+			"revision": "0b8effe182da161d81b011aba271507324ecb7ab",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/go-mangos/mangos",
+			"repository": "https://github.com/go-mangos/mangos",
+			"vcs": "git",
+			"revision": "2645a781e132c8f63127f0ec64318477a4dd913b",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/gorilla/websocket",
+			"repository": "https://github.com/gorilla/websocket",
+			"vcs": "git",
+			"revision": "cdedf21e585dae942951e34d6defc3215b4280fa",
+			"branch": "master",
+			"notests": true
+		}
+	]
+}
